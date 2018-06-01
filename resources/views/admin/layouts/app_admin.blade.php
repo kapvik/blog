@@ -44,7 +44,7 @@
                           <li class="dropdown-item">
                             <a href="{{route('admin.category.index')}}">Categories</a></li>
                           <li class="dropdown-item">
-                            <a href="#">Catalog</a></li>
+                            <a href="{{route('admin.article.index')}}">Catalog</a></li>
                         </ul>
                       </li>
                     </ul>
