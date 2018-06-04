@@ -160,9 +160,12 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
-        //Our packadges
+        // Our packadges
         Unisharp\Ckeditor\ServiceProvider::class,
 
+
+        // Own providers
+        App\Providers\BlogServiceProvider::class,
     ],
 
     /*
